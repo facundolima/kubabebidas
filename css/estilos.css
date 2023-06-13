@@ -1,0 +1,365 @@
+/* ETIQUETA */
+
+*{
+    margin: 0;
+    padding: 0;
+} /* Reseteo */
+
+html{
+    font-size: 62.5%
+} /* Ahora 1rem = 10px */
+
+body{
+    font-family: 'Crimson Text', serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a:hover{
+    color: grey;
+}
+
+nav li{
+    background-color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 15px 1px 10px 1px;
+    padding: 2px 8px;
+}
+
+nav li:hover{
+    transform: scale(0.9);
+}
+
+nav{
+    text-align: right;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* CLASE */
+.logokuba{
+    margin: 10px 60px;
+}
+
+.contenedorflex{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0px 0px;
+}
+
+.contenedorflex p{
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: right;
+}
+
+.letrablanca a{
+    color: white;
+    font-size: 2rem;
+}
+
+.logos{
+    margin: 2px 2px 0px 100px;
+}
+
+/* INDEX CSS */
+.centrado{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+/* .contenidoindex{
+    display: flex;
+    align-items: flex-start;
+} */
+
+.bloquevideo{
+    display: inline-block;
+    margin: 10px 10px 20px 20px;
+}
+
+.tamanioparrafo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 10px 20px 20px 20px;
+}
+
+.promovinos{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.videolocal{
+    margin-left: 30px;
+}
+
+/* HISTORIA CSS */
+
+/* .contenidohistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.fotoinauguracion{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tamaniohistoria{
+/*     display: flex;
+    justify-content: flex-start; */
+    font-size: 2rem;
+    margin: 50px 10px 10px 20px;
+}
+
+.tamaniohistoria p{
+    padding-bottom: 20px;
+}
+
+.localactualmente{
+    margin: 20px 20px 10px 10px;
+}
+
+.localactualmente h3{
+    text-align: center;
+}
+
+/* LISTA DE PRECIOS CSS */
+.centradolista{
+    display: inline-block;
+    margin: 10px 10px 10px 250px;
+}
+
+.espaciotitulo{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.datos{
+    list-style-type: disc;
+    font-size: 2rem;
+    margin: 0px 0px 10px 20px;
+}
+
+.tamaniolista{
+    font-size: 2rem;
+}
+
+.tamaniolista a:hover{
+    text-decoration: underline red;
+}
+
+.bordelista{
+    border: dashed black;
+    margin: 20px 0px;
+}
+
+.rojo{
+    display: inline-block;
+    background-color: red;
+}
+
+/* PREGUNTAS FRECUENTES CSS */
+.preguntas{
+    list-style-type: disc;
+    font-size: 2rem;
+    margin: 20px 10px 10px 40px;
+}
+
+.preguntas p{
+    margin-bottom: 20px;
+}
+
+.tamaniosection{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 10px 10px 20px 20px;
+}
+
+.tamaniosection a:hover{
+    color: grey;
+}
+
+/* CONTACTO CSS */
+.tamanioform{
+    display: inline-block;
+    margin: 10px 10px 20px 20px;
+}
+
+.tamanioform h3{
+    text-align: center;
+}
+
+form{
+    font-size: 2rem;
+    border: solid 2px;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
+
+input{
+    padding-right: 380px;
+    margin-bottom: 20px;
+}
+
+form input:focus{
+    height: 25px;
+}
+
+textarea{
+    padding-right: 310px;
+}
+
+.radio{
+    text-align: center;
+}
+
+.botonenviar{
+    display: inline-block;
+    padding: 2px;
+    margin-left: 250px;
+}
+
+.redes{
+    display: inline-block;
+    margin: 20px 20px 0px 20px;
+}
+
+.redes h3{
+    text-align: center;
+}
+
+.redes ul{
+    margin-bottom: 10px;
+}
+
+.tamanioredes{
+    font-size: 2rem;
+    border: solid 2px;
+    padding: 10px 20px;
+}
+
+.tamanioredes a:hover{
+    color: blue;
+}
+
+.mapas{
+    display: inline-block;
+    margin: 0px 20px 20px 20px;
+}
+
+/* ESTRUCTURA CON GRIDS */
+/* GRIDS INDEX */
+.contenedortotalindex{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr; 
+    grid-template-rows: 0.1fr 0.1fr 1fr auto;
+    grid-template-areas:
+    "header header"
+    "titulo titulo"
+    "video contenido"
+    "footer footer";
+}
+
+.headerindex{
+    grid-area: header;
+}
+
+.mainindex{
+    grid-area: titulo;
+}
+
+.sectionindex{
+    grid-area: video;
+}
+
+.articleindex{
+    grid-area: contenido;
+}
+
+.footerindex{
+    grid-area: footer;
+}
+
+/* GRIDS HISTORIA */
+.contenidohistoria{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    grid-template-rows: 1fr 0.8fr;
+    grid-template-areas: 
+    "inauguracion inauguracion"
+    "texto actualidad";
+}
+
+.fotoinauguracion{
+    grid-area: inauguracion;
+}
+
+.tamaniohistoria{
+    grid-area: texto;
+}
+
+.localactualmente{
+    grid-area: actualidad;
+}
+
+/* GRIDS CONTACTO */
+.contenidocontacto{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas: 
+    "formulario redes"
+    "formulario mapa";
+    align-items: baseline;
+}
+
+.tamanioform{
+    grid-area: formulario;
+}
+
+.redes{
+    grid-area: redes;
+}
+
+.mapas{
+    grid-area: mapa;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - KUBA Bebidas</title>
+
+    <link rel="shortcut icon" href="../imagenes/logofavi.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header><!-- Encabezado -->
+            <img src="../imagenes/logokubaredondo.png" alt="Logo Kuba" width="105" height="105" class="logokuba">
+
+        <div class="contenedorflex">
+            <p>Dr. Guillermo Gaebeler 899, Gerli, Lanús Este.</p>
+            <p>Lun a Vier de 9 a 13hs/15 a 19hs y Sáb de 9 a 13hs/14 a 17hs.</p>
+            <hr><!-- Linea horizontal -->
+
+        <nav><!-- Menu de navegacion -->
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./historia.html">HISTORIA</a></li>
+                <li><a href="./listadeprecios.html">LISTA DE PRECIOS</a></li>
+                <li><a href="./preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <div class="contenidocontacto">
+    <main class="tamanioform">
+        <h3>Formulario de contacto</h3>
+        <form action="">
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email" placeholder="Correo electrónico">
+            <label for="cliente">¿Ya sos cliente?:</label>
+            <div class="radio">
+            <input type="radio" name="cliente" id="cliente" value="S"> Si
+            <input type="radio" name="cliente" id="cliente" value="N"> No 
+            </div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <!-- Boton -->
+            <input class="botonenviar" type="submit" value="ENVIAR">
+        </form>
+    </main>
+
+    <section class="redes">
+        <h3>Nuestras redes</h3>
+        <ul class="tamanioredes">
+            <li><img src="../imagenes/whatsapp (1).png" alt="whatsapp color" width="25" height="25"> <a href="https://wa.me/5491164678492" target="_blank">+54 9 11 6467-8492</a></li>
+            <li><img src="../imagenes/email (1).png" alt="mail" width="25" height="25"> <a href="mailto:kubabebidas1@gmail.com">kubabebidas1@gmail.com</a></li>
+            <li><img src="../imagenes/instagram.png" alt="instagram" width="25" height="25"> <a href="https://www.instagram.com/kubabebidas/" target="_blank">Kubabebidas</a></li>
+            <li><img src="../imagenes/mapas-de-google.png" alt="maps" width="25" height="25"> <a href="https://goo.gl/maps/H2bVTZ3r2uF5NwiT7" target="_blank">Dr. Guillermo Gaebeler 899, Gerli, Lanús Este</a></li>
+        </ul>
+    </section>
+
+    <article class="mapas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13120.197478304384!2d-58.3748231!3d-34.7039347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdbf05a572c5%3A0x9f231813b049912e!2sKUBA!5e0!3m2!1ses-419!2sar!4v1683611367945!5m2!1ses-419!2sar" width="680" height="385" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+    </div>
+
+    <footer class="letrablanca"><!-- Pie de pagina -->
+        <img src="../imagenes/logomaps.jpg" alt="maps" width="20px" height="25px" class="logos"> <a href="https://goo.gl/maps/H2bVTZ3r2uF5NwiT7" target="_blank">Gaebeler 899, Gerli, Lanús Este</a>
+        <img src="../imagenes/logowpp.jpg" alt="whatsapp" width="25px" height="25px" class="logos"> <a href="https://wa.me/5491164678492" target="_blank">+54 9 11 6467-8492</a>
+        <img src="../imagenes/logoinsta.jpg" alt="instagram" width="25px" height="25px" class="logos"> <a href="https://www.instagram.com/kubabebidas/" target="_blank">Kubabebidas</a>
+        <img src="../imagenes/logomail.jpg" alt="mail" width="25px" height="20px" class="logos"> <a href="mailto:kubabebidas1@gmail.com">kubabebidas1@gmail.com</a>
+    </footer>
+
+</body>
+</html>
